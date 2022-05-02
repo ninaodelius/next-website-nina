@@ -10,16 +10,21 @@ background: #fff;
 `;
 
 const Heading = styled.h1`
+display:flex-wrap;
+justify-content:auto;
 color: #000;
 font-size: 6rem;
 font-weight: 900;
-padding: 0rem;
+padding: 1rem;
 `;
 
-const Pagetext = styled.p`
+const Pagetext = styled.a`
+display:flex-wrap;
+justify-content:auto;
 color: #000;
 font-size: 5rem;
 font-weight: 700;
+padding: 1rem;
 `
 export default function Contact() {
     return (
@@ -30,8 +35,10 @@ export default function Contact() {
     </Head>
     <Hero>
       <Heading>Ask me out for coffee</Heading>
-      <Pagetext>      
-      <a href={'nina.odelius@gmail.com'}> Email </a>
+      <Pagetext> 
+     <a href={'nina.odelius@gmail.com'}> Email </a>  </Pagetext>      
+
+      <Pagetext>
       <a href={'https://www.linkedin.com/in/nina-odelius/'}> LinkedIn </a>
       </Pagetext>
     </Hero>

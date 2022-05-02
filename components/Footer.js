@@ -7,11 +7,12 @@ height: 60px;
 display: flex;
 justify-content: center;
 align-items: center;
+bottom: 0;
 `
 const Footer = () => {
   return (
     <FooterSection>
-        <p>my presence is a present - 2022</p>
+        <p>{new Date().getFullYear()}</p>
     </FooterSection>
   )
 }

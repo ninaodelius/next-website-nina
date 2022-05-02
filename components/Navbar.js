@@ -18,8 +18,8 @@ const Navbar = () => {
     return(
         <Nav>       
             <div>
-            <Link href='/' passHref>
-                <StyledLink>NINA</StyledLink>
+            <Link href='/nina' passHref>
+                <StyledLink>Wisdom handpicked by Nina</StyledLink>
             </Link>
             </div>
             <div>
