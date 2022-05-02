@@ -19,7 +19,7 @@ const Navbar = () => {
         <Nav>       
             <div>
             <Link href='/nina' passHref>
-                <StyledLink>Wisdom handpicked by Nina</StyledLink>
+                <StyledLink>Nina</StyledLink>
             </Link>
             </div>
             <div>

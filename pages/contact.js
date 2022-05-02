@@ -7,6 +7,7 @@ display:flex;
 justify-content: center;
 align-items: center;
 background: #fff;
+flex-wrap: wrap;
 `;
 
 const Heading = styled.h1`
@@ -36,10 +37,9 @@ export default function Contact() {
     <Hero>
       <Heading>Ask me out for coffee</Heading>
       <Pagetext> 
-     <a href={'nina.odelius@gmail.com'}> Email </a>  </Pagetext>      
-
-      <Pagetext>
-      <a href={'https://www.linkedin.com/in/nina-odelius/'}> LinkedIn </a>
+     <a href={'nina.odelius@gmail.com'}> Email </a>
+     /
+     <a href={'https://www.linkedin.com/in/nina-odelius/'}> LinkedIn </a>
       </Pagetext>
     </Hero>
     </>

@@ -8,6 +8,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 bottom: 0;
+position: relative;
+flex-wrap: wrap;
+flex:1;
+margin-bottom:0;
+
 `
 const Footer = () => {
   return (

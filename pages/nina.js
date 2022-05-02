@@ -21,16 +21,16 @@ font-size: 5rem;
 font-weight: 700;
 `
 
-export default function Wisdom() {
+export default function Dota() {
   return (
     <>
       <Head>
-        <title>About Page</title>
+        <title>About</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero>
         <Heading></Heading>
-        <Pagetext>sicker than your average</Pagetext>
+        <Pagetext>this is how good she is</Pagetext>
       </Hero>
 </>
   )
