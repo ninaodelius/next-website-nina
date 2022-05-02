@@ -17,6 +17,8 @@ padding: 1rem;
 `;
 
 const Pagetext = styled.p`
+display:flex-wrap;
+justify-content:space-around;
 color: #000;
 font-size: 5rem;
 font-weight: 700;
@@ -30,7 +32,7 @@ export default function Home() {
       </Head>
       <Hero>
         <Heading>Hello</Heading>
-        <Pagetext>Fancy seeing you here</Pagetext>
+        <Pagetext>Fancy seeing you here 👋</Pagetext>
       </Hero>
 </>
   )
