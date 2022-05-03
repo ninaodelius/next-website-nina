@@ -2,15 +2,15 @@ import styled from 'styled-components';
 
 
 const Bkgimg = styled.div`
-display:flex;
 position: relative;
-background-size: cover;
+background-image:url('./images/bokeh.jpg');
+background-size:100% 100%;
 `
 
 const Background = () => {
     return(
 <Bkgimg>
-<img src={'./images/bokeh.jpg'} /></Bkgimg>
+</Bkgimg>
     );
 };
 

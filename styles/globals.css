@@ -14,10 +14,3 @@ a {
 * {
   box-sizing: border-box;
 }
-
-.bkgimg{
-  background-image: url('/bokeh.jpg');
-  height: 100vh;
-
-background-size: cover;
-}
