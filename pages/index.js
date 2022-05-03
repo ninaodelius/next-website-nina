@@ -25,11 +25,12 @@ font-weight: 700;
 `
 export default function Home() {
   return (
-    <>
+    <> 
       <Head>
         <title>Home Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      
       <Hero>
         <Heading>Hello</Heading>
         <Pagetext>Fancy seeing you here 👋</Pagetext>
